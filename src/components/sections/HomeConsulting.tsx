@@ -113,8 +113,6 @@ const Card1 = ({ title, img, hoverText, link }: ConsultingCard) => {
   );
 };
 
-const Card2 = Card1;
-
 const Card3 = ({ title, img, hoverText, link }: ConsultingCard) => {
   const [hovered, setHovered] = useState(false);
   return (

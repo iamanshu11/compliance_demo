@@ -93,7 +93,7 @@ const ComplianceEasier = ({ id }: ComplianceEasierProps) => {
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
         >
-          {cards.map((card, idx) => (
+          {cards.map((card) => (
             <motion.div
               key={card.title}
               className="bg-[#EBEBEB] rounded-2xl shadow-sm p-6 flex flex-col items-start min-h-[270px] cursor-pointer transition-all"

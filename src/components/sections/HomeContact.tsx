@@ -5,9 +5,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
 
-import mapImg from '../assets/img/contact/map.png';
-import personImg from '../assets/img/contact/person.png';
-
 const HomeContact: React.FC = () => {
   useEffect(() => {
     AOS.init({

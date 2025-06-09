@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
 import HeroSection from '@/components/sections/HeroSection';
 import RunningStats from '@/components/sections/RunningStats';
 import ComplianceEasier from '@/components/sections/ComplianceEasier';
@@ -14,15 +13,6 @@ import HomeKnowledge from '@/components/sections/HomeKnowledge';
 import HomeContact from '@/components/sections/HomeContact';
 
 export default function Home() {
-  // Smooth scroll handler
-  const handleLearnMore = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
-    const el = document.getElementById('compliance-easier-section');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <main className="home">
       <HeroSection

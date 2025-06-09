@@ -66,7 +66,7 @@ const Industries = () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mb-10">
-          {industries.map((industry, idx) => (
+          {industries.map((industry) => (
             <div
               key={industry.title}
               className="bg-white rounded-2xl shadow p-0 flex flex-col items-start min-h-[320px] overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1 duration-200"

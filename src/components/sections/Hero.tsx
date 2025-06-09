@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
                 <span className="block text-indigo-600 xl:inline">Your Company</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Your compelling value proposition goes here. Make it clear, concise, and compelling to capture your visitors' attention.
+                Your compelling value proposition goes here. Make it clear, concise, and compelling to capture your visitors&apos; attention.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -37,10 +38,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
+        <Image
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src="/hero-image.jpg"
           alt="Hero image"
+          width={1920}
+          height={1080}
+          priority
         />
       </div>
     </div>

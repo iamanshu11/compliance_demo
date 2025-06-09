@@ -5,10 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Lottie from 'lottie-react';
-
-// Import animations from public folder
-const animationData1 = require('/public/animation/license.json');
-const animationData2 = require('/public/animation/consulting.json');
+import animationData1 from '/public/animation/license.json';
+import animationData2 from '/public/animation/consulting.json';
 
 const consultingMenu = [
     {
