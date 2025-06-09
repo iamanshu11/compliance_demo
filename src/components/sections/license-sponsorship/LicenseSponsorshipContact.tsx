@@ -18,7 +18,7 @@ const LicenseSponsorshipContact = () => {
                 Ready to Get Started with License Sponsorship?
               </h2>
               <p className="text-gray-600 mb-8">
-                Contact our team of licensing experts to discuss your needs. We'll help you navigate the licensing process and ensure your business remains compliant.
+                Contact our team of licensing experts to discuss your needs. We&#39;ll help you navigate the licensing process and ensure your business remains compliant.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">

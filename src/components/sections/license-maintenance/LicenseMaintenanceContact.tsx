@@ -18,7 +18,7 @@ const LicenseMaintenanceContact = () => {
                 Ready to Ensure Your License Compliance?
               </h2>
               <p className="text-gray-600 mb-8">
-                Contact our team of compliance experts to discuss your license maintenance needs. We'll help you develop a comprehensive strategy to keep your licenses active and compliant.
+                Contact our team of compliance experts to discuss your license maintenance needs. We&#39;ll help you develop a comprehensive strategy to keep your licenses active and compliant.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
