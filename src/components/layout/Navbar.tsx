@@ -64,7 +64,7 @@ const licensingMenu = [
     },
     {
         label: 'License Sponsorship',
-        href: '/license-sponsorships',
+        href: '/license-sponsorship',
         subheader: `Access to sponsor partnerships where direct licensing isn't feasible.`
     },
     {

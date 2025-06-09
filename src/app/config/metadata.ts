@@ -21,6 +21,16 @@ const pagesMetadata: Record<string, PageMetadata> = {
     description: 'Expert guidance for obtaining and maintaining money transmitter licenses. Comprehensive support for license applications, compliance documentation, risk assessment, and regulatory reporting.',
     keywords: 'money transmitter license, MSB licensing, money transfer license, payment license, regulatory compliance, financial licensing',
   },
+  'license-maintenance': {
+    title: 'License Maintenance & Renewal Services - RemitSo',
+    description: 'Professional license maintenance and renewal services to keep your licenses active and compliant. Comprehensive support for renewal applications, compliance monitoring, and regulatory reporting.',
+    keywords: 'license maintenance, license renewal, compliance monitoring, regulatory reporting, license compliance, financial licensing',
+  },
+  'license-sponsorship': {
+    title: 'License Sponsorship Services - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
   // Add more pages here as needed
 };
 

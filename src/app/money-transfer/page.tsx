@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import HeroSection from '@/components/sections/HeroSection';
 import MoneyTransferFeatures from '@/components/sections/money-transfer/MoneyTransferFeatures';
 import MoneyTransferProcess from '@/components/sections/money-transfer/MoneyTransferProcess';
@@ -7,7 +8,7 @@ import MoneyTransferBenefits from '@/components/sections/money-transfer/MoneyTra
 import MoneyTransferFAQ from '@/components/sections/money-transfer/MoneyTransferFAQ';
 import MoneyTransferContact from '@/components/sections/money-transfer/MoneyTransferContact';
 
-export default function MoneyTransferPage() {
+const MoneyTransferPage: React.FC = () => {
   return (
     <main className="money-transfer">
       <HeroSection
@@ -27,4 +28,6 @@ export default function MoneyTransferPage() {
       <MoneyTransferContact />
     </main>
   );
-} 
+};
+
+export default MoneyTransferPage; 
