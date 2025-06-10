@@ -4,17 +4,17 @@ import React from 'react';
 
 const PrivacyPolicyPage: React.FC = () => {
   return (
-    <main className="privacy-policy">
+    <div className="privacy-policy">
       <div className="min-h-screen flex flex-col">
-        <main className="flex-grow w-full bg-[#021F29]">
+        <div className="flex-grow w-full bg-[#021F29]">
           <div className="container mx-auto px-4 py-12 mt-12 text-white">
             <h1 className="text-4xl md:text-6xl font-bold text-center mb-8">Privacy Policy</h1>
             <div className="mt-6 space-y-8 max-w-4xl mx-auto">
-              <p className="text-lg">Last Updated: {new Date().toLocaleDateString()}</p>
-              
+              <p className="text-lg">Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
               <section>
                 <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
-                <p className="mb-4">RemitSo ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+                <p className="mb-4">RemitSo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
                 <p className="mb-4">Please read this privacy policy carefully. By accessing or using our services, you acknowledge that you have read, understood, and agree to be bound by all the terms of this privacy policy.</p>
               </section>
 
@@ -113,10 +113,10 @@ const PrivacyPolicyPage: React.FC = () => {
               </section>
             </div>
           </div>
-        </main>
+        </div>
       </div>
-    </main>
+    </div>
   );
 };
 
-export default PrivacyPolicyPage; 
+export default PrivacyPolicyPage;

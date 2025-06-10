@@ -4,9 +4,9 @@ import React from 'react';
 
 const TermsAndConditionsPage: React.FC = () => {
     return (
-        <main className="terms-and-conditions">
+        <div className="terms-and-conditions">
             <div className="min-h-screen flex flex-col">
-                <main className="flex-grow w-full bg-[#021F29]">
+                <div className="flex-grow w-full bg-[#021F29]">
                     <div className="container mx-auto px-4 py-12 mt-12">
                         <h1 className="text-4xl md:text-6xl font-bold text-center text-white mb-8">Terms and Conditions</h1>
                         <div className="mt-6 max-w-4xl mx-auto space-y-8">
@@ -91,10 +91,10 @@ const TermsAndConditionsPage: React.FC = () => {
                             </section>
                         </div>
                     </div>
-                </main>
+                </div>
             </div>
-        </main>
+        </div>
     );
 };
 
-export default TermsAndConditionsPage; 
+export default TermsAndConditionsPage;
