@@ -34,7 +34,7 @@ const BuildInhouseWhy = () => {
               Designing for Global Regulatory Expectations
             </h3>
             <p className="text-white text-base opacity-80">
-              Expectations regarding the structure, independence, expertise, and authority of compliance functions vary globally. We design frameworks that meet specific jurisdictional requirements (e.g., FCA's SMCR, US regulatory expectations, EU directives) while embedding international best practices.
+              Expectations regarding the structure, independence, expertise, and authority of compliance functions vary globally. We design frameworks that meet specific jurisdictional requirements (e.g., FCA&apos;s SMCR, US regulatory expectations, EU directives) while embedding international best practices.
             </p>
           </div>
 
