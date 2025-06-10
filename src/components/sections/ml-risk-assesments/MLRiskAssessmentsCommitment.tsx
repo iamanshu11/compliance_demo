@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 import { usePopupTalkToExpert } from '@/context/PopupTalkToExpertContext';
 
@@ -42,9 +43,11 @@ const MLRiskAssessmentsCommitment: React.FC = () => {
           className="flex-1 flex items-center justify-center"
           data-aos="fade-down"
         >
-          <img
+          <Image
             src="/ml-risk-assessments/commitment.png"
             alt="Regulators Map"
+            width={500}
+            height={300}
             className="w-full max-w-xl rounded-2xl shadow-lg object-cover"
           />
         </div>

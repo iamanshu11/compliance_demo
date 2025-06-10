@@ -29,11 +29,6 @@ const HeroSection = ({
   imageClass = '',
   children,
 }: HeroSectionProps) => {
-  const openPopup = () => {
-    // Implement your popup logic here
-    console.log('Open popup');
-  };
-
   return (
     <section className="w-full bg-[#021F29] min-h-screen flex items-center">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:px-6 py-12 w-full">
