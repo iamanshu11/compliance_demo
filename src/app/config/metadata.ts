@@ -31,7 +31,61 @@ const pagesMetadata: Record<string, PageMetadata> = {
     description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
     keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
   },
-  // Add more pages here as needed
+  'existing-license': {
+    title: 'Existing License Services - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'aml-program': {
+    title: 'Aml Program - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'ml-risk-assessments': {
+    title: 'ML/TF Risk Assessments - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'expert-gap-analysis': {
+    title: 'Expert Gap Analysis & Remediation Roadmap - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'global-aml-solution': {
+    title: 'Global AML/CFT Training Solutions - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'build-inhouse': {
+    title: 'Build Inhouse Compliance Function - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'navigate-global': {
+    title: 'Navigate Global Financial Crime Complexity - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'expert-aml-policy': {
+    title: 'Expert AML/CFT Policy - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'third-party': {
+    title: 'Third Party Independent Reviews - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'privacy-policy': {
+    title: 'Privacy Policy - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
+  'terms-and-conditions': {
+    title: 'Terms and Conditions - RemitSo',
+    description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
+    keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
+  },
 };
 
 export function generateMetadata(page: string): Metadata {

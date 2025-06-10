@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import Lottie from 'lottie-react';
 import animationData1 from '/public/animation/license.json';
 import animationData2 from '/public/animation/consulting.json';
+import { usePopupTalkToExpert } from '@/context/PopupTalkToExpertContext';
 
 const consultingMenu = [
     {
@@ -75,6 +76,7 @@ const licensingMenu = [
 ];
 
 const Navbar = () => {
+    const { openPopup } = usePopupTalkToExpert();
     const [menuOpen, setMenuOpen] = useState(false);
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
     const consultingTimeout = useRef<NodeJS.Timeout | null>(null);
@@ -91,11 +93,6 @@ const Navbar = () => {
 
     const handleDropdownLeave = () => {
         consultingTimeout.current = setTimeout(() => setOpenDropdown(null), 120);
-    };
-
-    const openPopup = () => {
-        // Implement your popup logic here
-        console.log('Open popup');
     };
 
     return (

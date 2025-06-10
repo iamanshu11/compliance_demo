@@ -2,30 +2,30 @@
 
 import React from 'react';
 import HeroSection from '@/components/sections/HeroSection';
-import MoneyTransferFeatures from '@/components/sections/money-transfer/MoneyTransferFeatures';
-import MoneyTransferProcess from '@/components/sections/money-transfer/MoneyTransferProcess';
-import MoneyTransferBenefits from '@/components/sections/money-transfer/MoneyTransferBenefits';
-import MoneyTransferFAQ from '@/components/sections/money-transfer/MoneyTransferFAQ';
-import MoneyTransferContact from '@/components/sections/money-transfer/MoneyTransferContact';
+import MoneyRegulators from '@/components/sections/money-transfer/MoneyRegulators';
+import SpecializedLicensingSupport from '@/components/sections/money-transfer/SpecializedLicensingSupport';
+import ExploreService from '@/components/sections/ExploreService';
+import MoneyObtain from '@/components/sections/money-transfer/MoneyObtain';
+import { usePopupTalkToExpert } from '@/context/PopupTalkToExpertContext';
 
 const MoneyTransferPage: React.FC = () => {
+  const { openPopup } = usePopupTalkToExpert();
   return (
     <main className="money-transfer">
       <HeroSection
-        title={"Money Transmitter\nLicensing"}
-        subtitle={"Navigate the complex landscape of money transmitter licensing with our expert guidance and comprehensive support."}
+        title={"Navigate Money Transfer Licensing"}
+        subtitle={"In-depth, practical support shaped by years of experience to meet all \nlicensing and compliance requirements"}
         buttons={[
-          { label: 'Talk to an Expert', href: '#', variant: 'primary' },
-          { label: 'Learn More', href: '#', variant: 'outline' },
+          { label: 'Talk to an Expert', href: '#', onClick: openPopup, variant: 'primary' },
+          // { label: 'Learn More', href: '#', variant: 'outline' },
         ]}
         image="/money-transfer/hero-img.png"
         imageAlt="Money Transmitter Licensing"
       />
-      <MoneyTransferFeatures />
-      <MoneyTransferProcess />
-      <MoneyTransferBenefits />
-      <MoneyTransferFAQ />
-      <MoneyTransferContact />
+      <MoneyRegulators />
+      <SpecializedLicensingSupport />
+      <ExploreService />
+      <MoneyObtain />
     </main>
   );
 };

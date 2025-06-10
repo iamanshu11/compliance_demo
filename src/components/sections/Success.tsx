@@ -132,7 +132,7 @@ const Success = () => {
               </button>
             </div>
             <iframe
-              src={`${pdfToShow}#toolbar=0`}
+              src={`${pdfToShow}#view=FitH&embedded=true&toolbar=0&navpanes=0`}
               title="Case Study PDF"
               className="w-full h-[70vh] rounded-b-lg"
               style={{ border: 'none' }}

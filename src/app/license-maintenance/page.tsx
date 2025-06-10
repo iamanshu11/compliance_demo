@@ -2,30 +2,30 @@
 
 import React from 'react';
 import HeroSection from '@/components/sections/HeroSection';
-import LicenseMaintenanceFeatures from '@/components/sections/license-maintenance/LicenseMaintenanceFeatures';
-import LicenseMaintenanceProcess from '@/components/sections/license-maintenance/LicenseMaintenanceProcess';
-import LicenseMaintenanceBenefits from '@/components/sections/license-maintenance/LicenseMaintenanceBenefits';
-import LicenseMaintenanceFAQ from '@/components/sections/license-maintenance/LicenseMaintenanceFAQ';
-import LicenseMaintenanceContact from '@/components/sections/license-maintenance/LicenseMaintenanceContact';
+import LicenseMaintenancePartner from '@/components/sections/license-maintenance/LicenseMaintenancePartner';
+import MoneyRegulators from '@/components/sections/money-transfer/MoneyRegulators';
+import ExploreService from '@/components/sections/ExploreService';
+import LicenseMaintenancePartnerActive from '@/components/sections/license-maintenance/LicenseMaintenancePartnerActive';
+import { usePopupTalkToExpert } from '@/context/PopupTalkToExpertContext';
 
 const LicenseMaintenancePage: React.FC = () => {
+  const { openPopup } = usePopupTalkToExpert();
   return (
     <main className="license-maintenance">
       <HeroSection
-        title={"License\nMaintenance"}
-        subtitle={"Keep your licenses active and compliant with our comprehensive maintenance and renewal support services."}
+        title={"Stay Licensed, Stay Compliant"}
+        subtitle={"Expert oversight of renewals, reporting and regulatory requirements to prevent costly compliance lapses."}
         buttons={[
-          { label: 'Talk to an Expert', href: '#', variant: 'primary' },
-          { label: 'Learn More', href: '#', variant: 'outline' },
+          { label: 'Talk to an Expert', href: '#', onClick: openPopup, variant: 'primary' },
+          // { label: 'Learn More', href: '#', variant: 'outline' },
         ]}
         image="/licensemaintenance/hero-img.png"
         imageAlt="License Maintenance"
       />
-      <LicenseMaintenanceFeatures />
-      <LicenseMaintenanceProcess />
-      <LicenseMaintenanceBenefits />
-      <LicenseMaintenanceFAQ />
-      <LicenseMaintenanceContact />
+      <LicenseMaintenancePartner />
+      <MoneyRegulators />
+      <ExploreService />
+      <LicenseMaintenancePartnerActive />
     </main>
   );
 };

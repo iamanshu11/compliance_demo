@@ -2,30 +2,30 @@
 
 import React from 'react';
 import HeroSection from '@/components/sections/HeroSection';
-import LicenseSponsorshipFeatures from '@/components/sections/license-sponsorship/LicenseSponsorshipFeatures';
-import LicenseSponsorshipProcess from '@/components/sections/license-sponsorship/LicenseSponsorshipProcess';
-import LicenseSponsorshipBenefits from '@/components/sections/license-sponsorship/LicenseSponsorshipBenefits';
-import LicenseSponsorshipFAQ from '@/components/sections/license-sponsorship/LicenseSponsorshipFAQ';
-import LicenseSponsorshipContact from '@/components/sections/license-sponsorship/LicenseSponsorshipContact';
+import LicenseSponsorshipBridge from '@/components/sections/license-sponsorship/LicenseSponsorshipBridge';
+import LicenseSponsorshipEmpowering from '@/components/sections/license-sponsorship/LicenseSponsorshipEmpowering';
+import MoneyRegulators from '@/components/sections/money-transfer/MoneyRegulators';
+import ExploreService from '@/components/sections/ExploreService';
+import { usePopupTalkToExpert } from '@/context/PopupTalkToExpertContext';
 
 const LicenseSponsorshipPage: React.FC = () => {
+  const { openPopup } = usePopupTalkToExpert();
   return (
     <main className="license-sponsorship">
       <HeroSection
-        title={"License\nSponsorship"}
-        subtitle={"Partner with us to obtain and maintain your financial licenses through our expert sponsorship services."}
+        title={"Expert License Sponsorships Solutions"}
+        subtitle={"Facilitating compliant partnerships between licensed Principal firms and Agents/Appointed Representatives worldwide."}
         buttons={[
-          { label: 'Talk to an Expert', href: '#', variant: 'primary' },
-          { label: 'Learn More', href: '#', variant: 'outline' },
+          { label: 'Talk to an Expert', href: '#', onClick: openPopup, variant: 'primary' },
+          // { label: 'Learn More', href: '#', variant: 'outline' },
         ]}
         image="/licensesponsorships/hero-img.png"
         imageAlt="License Sponsorship"
       />
-      <LicenseSponsorshipFeatures />
-      <LicenseSponsorshipProcess />
-      <LicenseSponsorshipBenefits />
-      <LicenseSponsorshipFAQ />
-      <LicenseSponsorshipContact />
+      <LicenseSponsorshipBridge />
+      <LicenseSponsorshipEmpowering />
+      <MoneyRegulators />
+      <ExploreService />
     </main>
   );
 };
