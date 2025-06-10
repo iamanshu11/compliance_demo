@@ -48,7 +48,7 @@ const GlobalAmlSolutionendtoend = () => {
           End-to-end AML/CFT Training Solutions
         </h2>
         <p className="text-base md:text-lg text-[#00374A] text-center max-w-3xl mb-10" data-aos="fade-up">
-          In-depth diagnostic evaluation identifying discrepancies between your program's design, implementation,
+          In-depth diagnostic evaluation identifying discrepancies between your program&apos;s design, implementation,
           and current regulatory requirements or industry best practices worldwide.
         </p>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">

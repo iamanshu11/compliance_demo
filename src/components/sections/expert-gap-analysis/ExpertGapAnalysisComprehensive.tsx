@@ -74,7 +74,7 @@ const ExpertGapAnalysisComprehensive = () => {
           Comprehensive AML/CFT Gap Analysis
         </h2>
         <p className="text-lg text-[#357187] text-center mb-12 max-w-2xl mx-auto" data-aos="fade-up">
-          In-depth diagnostic evaluation identifying discrepancies between your program's design, implementation,
+          In-depth diagnostic evaluation identifying discrepancies between your program&apos;s design, implementation,
           and current regulatory requirements or industry best practices worldwide.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center w-full gap-8 mb-10">
