@@ -33,7 +33,7 @@ export default function Home() {
       <HomeConsulting />
       <Tools />
       <Industries />
-      <Resources />
+      {/* <Resources /> */}
       <Success />
       <Trust />
       <HomeKnowledge />

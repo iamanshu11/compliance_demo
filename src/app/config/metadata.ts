@@ -86,6 +86,21 @@ const pagesMetadata: Record<string, PageMetadata> = {
     description: 'Expert license sponsorship services to help you obtain and maintain financial licenses. Comprehensive support for license applications, compliance management, and regulatory requirements.',
     keywords: 'license sponsorship, financial licensing, regulatory compliance, license application, compliance management, financial services license',
   },
+  'right-aml-adviser': {
+    title: 'How to Choose the Right AML/CTF Adviser: A Step-by-Step Checklist Backed by AUSTRAC',
+    description: 'Learn how to select the perfect AML/CTF adviser for your business with our comprehensive checklist, backed by AUSTRAC guidelines.',
+    keywords: 'AML adviser, CTF adviser, AUSTRAC compliance, compliance checklist, AML/CFT guidance, regulatory compliance',
+  },
+  'aml-compliance-program': {
+    title: '6 Steps to Building an Effective AML Compliance Program',
+    description: 'Discover the essential steps to create a robust AML compliance program. Learn about risk assessment, KYC compliance, and regulatory requirements.',
+    keywords: 'AML compliance program, risk assessment, KYC compliance, regulatory requirements, compliance framework, AML/CFT program',
+  },
+  'fatf-compliance-checklist': {
+    title: 'FATF Compliance Checklist for Money Transfer Companies (MVTS) – 2025 Complete Expert Guide',
+    description: 'Comprehensive FATF compliance checklist for Money Transfer Companies. Learn about risk assessment, CDD, transaction monitoring, and regulatory requirements.',
+    keywords: 'FATF compliance, MVTS compliance, money transfer compliance, CDD requirements, transaction monitoring, regulatory compliance',
+  },
 };
 
 export function generateMetadata(page: string): Metadata {

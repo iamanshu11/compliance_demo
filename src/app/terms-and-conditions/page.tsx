@@ -9,7 +9,7 @@ const TermsAndConditionsPage: React.FC = () => {
                 <div className="flex-grow w-full bg-[#021F29]">
                     <div className="container mx-auto px-4 py-12 mt-12">
                         <h1 className="text-4xl md:text-6xl font-bold text-center text-white mb-8">Terms and Conditions</h1>
-                        <div className="mt-6 max-w-4xl mx-auto space-y-8">
+                        <div className="mt-6  mx-auto space-y-8">
                             <section>
                                 <h2 className="text-2xl font-bold text-white mb-4">1. Agreement to Terms</h2>
                                 <p className="text-white mb-4">By accessing or using RemitSo&apos;s services, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access our services.</p>

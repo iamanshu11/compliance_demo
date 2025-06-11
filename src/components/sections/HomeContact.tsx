@@ -74,7 +74,7 @@ const HomeContact: React.FC = () => {
                     maxLength={255}
                     name="Name_First"
                     placeholder="First Name"
-                    className="w-full border border-[#e0e7ef] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
+                    className="w-full border border-[#e0e7ef] text-[#1a2a3a] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
                     required
                   />
                 </div>
@@ -88,7 +88,7 @@ const HomeContact: React.FC = () => {
                     maxLength={255}
                     name="Name_Last"
                     placeholder="Last Name"
-                    className="w-full border border-[#e0e7ef] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
+                    className="w-full border border-[#e0e7ef] text-[#1a2a3a] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
                     required
                   />
                 </div>
@@ -103,7 +103,7 @@ const HomeContact: React.FC = () => {
                   maxLength={255}
                   name="Email"
                   placeholder="Share your work email"
-                  className="w-full border border-[#e0e7ef] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
+                  className="w-full border border-[#e0e7ef] text-[#1a2a3a] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
                   required
                 />
               </div>
@@ -114,7 +114,7 @@ const HomeContact: React.FC = () => {
                 <select
                   id="service"
                   name="Dropdown"
-                  className="w-full border border-[#e0e7ef] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
+                  className="w-full border border-[#e0e7ef] text-[#1a2a3a] rounded px-4 py-2 focus:outline-none focus:border-[#4092fa] transition"
                   required
                   defaultValue="-Select-"
                 >
@@ -127,7 +127,7 @@ const HomeContact: React.FC = () => {
               </div>
               <button
                 type="submit"
-                className="mt-4 px-8 py-3 rounded bg-[#06232c] text-white font-medium shadow hover:bg-[#164d60] transition-all duration-200 hover:scale-105"
+                className="mt-4 px-8 py-3 rounded bg-[#06232c]  text-white font-medium shadow hover:bg-[#164d60] transition-all duration-200 hover:scale-105"
               >
                 Talk to an Expert
               </button>

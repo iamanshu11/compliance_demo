@@ -9,7 +9,7 @@ const PrivacyPolicyPage: React.FC = () => {
         <div className="flex-grow w-full bg-[#021F29]">
           <div className="container mx-auto px-4 py-12 mt-12 text-white">
             <h1 className="text-4xl md:text-6xl font-bold text-center mb-8">Privacy Policy</h1>
-            <div className="mt-6 space-y-8 max-w-4xl mx-auto">
+            <div className="mt-6 space-y-8  mx-auto">
               <p className="text-lg">Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
               <section>

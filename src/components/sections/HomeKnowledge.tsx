@@ -8,17 +8,17 @@ const knowledgeCards = [
   {
     img: '/knowledge/img-5.png',
     title: 'How to Choose the Right AML/CTF Adviser: A Step-by-Step Checklist Backed by AUSTRAC',
-    path: '/right-aml-adviser',
+    path: '/knowledge-base/right-aml-adviser',
   },
   {
     img: '/knowledge/img-1.png',
     title: '6 Steps to Building an Effective AML Compliance Program',
-    path: '/aml-compliance-program',
+    path: '/knowledge-base/aml-compliance-program',
   },
   {
     img: '/knowledge/img-2.png',
     title: 'FATF Compliance Checklist for Money Transfer Companies (MVTS) – 2025 Complete Expert Guide',
-    path: '/fatf-compliance-checklist',
+    path: '/knowledge-base/fatf-compliance-checklist',
   },
   {
     img: '/knowledge/img-3.png',
@@ -26,7 +26,7 @@ const knowledgeCards = [
     path: '', // Coming soon
   },
   {
-    img: '/img/knowledge/img-4.png',
+    img: '/knowledge/img-4.png',
     title: 'How to Apply for a Money Transfer License in Canada',
     path: '', // Coming soon
   },
@@ -99,7 +99,7 @@ const HomeKnowledge = () => {
           {/* Card slider */}
           <div
             ref={sliderRef}
-            className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide"
+            className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             style={{ scrollSnapType: 'x mandatory' }}
           >
             {knowledgeCards.map((card, idx) => (
