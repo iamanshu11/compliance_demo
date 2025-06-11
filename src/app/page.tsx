@@ -6,7 +6,6 @@ import ComplianceEasier from '@/components/sections/ComplianceEasier';
 import HomeConsulting from '@/components/sections/HomeConsulting';
 import Tools from '@/components/sections/Tools';
 import Industries from '@/components/sections/Industries';
-import Resources from '@/components/sections/Resources';
 import Success from '@/components/sections/Success';
 import Trust from '@/components/sections/Trust';
 import HomeKnowledge from '@/components/sections/HomeKnowledge';
@@ -33,7 +32,6 @@ export default function Home() {
       <HomeConsulting />
       <Tools />
       <Industries />
-      {/* <Resources /> */}
       <Success />
       <Trust />
       <HomeKnowledge />
